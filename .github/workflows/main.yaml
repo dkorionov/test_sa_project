@@ -68,7 +68,7 @@ jobs:
           DB_HOST: 127.0.0.1
           DB_PORT: ${{ matrix.db_port }}
           DB_PASSWORD: postgres
-          DJANGO_SETTINGS_MODULE: fitnessMarketplace.settings
+          DJANGO_SETTINGS_MODULE: sa_project.settings
           ALLOWED_HOSTS: "*"
           SECRET_KEY: 'secret-test-key'
           TOKEN_LIFETIME: 604800
