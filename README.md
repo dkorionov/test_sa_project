@@ -1,6 +1,7 @@
 # SA-Django test project
 
-### To run the project, you need to have docker and docker-compose installed.
+### Run project
+## Create .env file using .env.example
 ```bash
 make build
 make up
